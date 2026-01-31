@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Balanced Life Blueprint</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .thank-you-container {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .thank-you-content {
+            text-align: center;
+            max-width: 600px;
+            background: white;
+            padding: 4rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .success-icon {
+            font-size: 5rem;
+            color: #28a745;
+            margin-bottom: 1.5rem;
+            animation: scaleIn 0.5s ease-out;
+        }
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        .thank-you-content h1 {
+            color: #2c5f7c;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .thank-you-content p {
+            color: #666;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+        .back-home-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #2c5f7c 0%, #4a90b5 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        .back-home-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Balanced Life Blueprint</h1>
+                    <p class="tagline">Building Your Path to Wellness</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-container">
+        <div class="thank-you-content">
+            <div class="success-icon">✓</div>
+            <h1>Thank You!</h1>
+            <p>Your message has been successfully sent. We appreciate you reaching out to us and will get back to you within 24-48 hours.</p>
+            <p>In the meantime, feel free to explore our free resources and bonus content!</p>
+            <a href="index.html" class="back-home-btn">← Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Balanced Life Blueprint. All rights reserved.</p>
+            <p>Building healthier, happier lives one step at a time.</p>
+        </div>
+    </footer>
+</body>
+</html>
